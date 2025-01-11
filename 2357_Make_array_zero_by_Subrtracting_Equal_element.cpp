@@ -13,6 +13,5 @@ int main()
         st.insert(it);
     }
    }
-   
- 
+ return st.size();
 }
