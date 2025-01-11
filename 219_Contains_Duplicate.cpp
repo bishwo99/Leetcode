@@ -1,3 +1,4 @@
+//This code use O(N^2) and got TLE on Leetcode
 #include<bits/stdc++.h>
 using namespace std;
 int main()
