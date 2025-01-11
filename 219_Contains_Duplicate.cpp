@@ -26,11 +26,6 @@ int main()
     if(ans) cout <<"True";
     else 
     cout <<"False";
-
-
-
-
-
 }
 
 
