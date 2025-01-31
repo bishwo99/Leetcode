@@ -14,3 +14,20 @@ public:
         return res+1;
     }
 };
+// it takes O(N)
+class Solution {
+public:
+    int mostWordsFound(vector<string>& sentences) {
+        int maxWord = 0;
+        for(string s : sentences)
+        {
+            int word = 1;
+            for(char it : s)
+            {
+                if(it == ' ') word++;
+            }
+            maxWord = max(word,maxWord);
+        }
+        return maxWord;
+    }
+};
